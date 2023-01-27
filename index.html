@@ -2,32 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Frontend Mentor | [Challenge Name Here]</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="./styles/styles.css">
+  <title>Frontend Mentor | [David Bayode Solution to chat app]</title>
 </head>
 <body>
 <main class="main-content">
-  <aside class="styling-1"></aside>
+  <aside class="left-blob"></aside>
   <section class="middle-content">
     <div class="phone-left">
       <div class="content">
-        <div class="innter-content">
+        <div class="inner-content">
           <header class="status">
-            <figure><img src="" alt=""></figure>
-            <h2 class="name">Samuel Green</h2>
-            <p class="description">Available to Walk</p>
+            <span class="notch"></span>
+            <div class="content-width">
+            <figure><img src="./images/avatar.jpg" class="profile-pic" alt="profilepic"></figure>
+            <span class="profile-details">
+              <h2 class="name">Samuel Green</h2>
+              <p class="description">Available to Walk</p>
+            </span>
+            </div>
           </header>
           <div class="chat-body">
-            <span class="chatbox-left">That sounds great. I’d be happy with that.</span>
-            <span class="chatbox-left">Could you send over some pictures of your dog, please?</span>
+            <span class="chatbox left">That sounds great. I’d be happy with that.</span>
+            <span class="chatbox left">Could you send over some pictures of your dog, please?</span>
             <span class="images">
               <picture class="image-row">
                 <img src="./images/dog-image-1.jpg" alt="firstdog">
@@ -35,9 +34,9 @@
                 <img src="./images/dog-image-3.jpg" alt="thirddog">
               </picture>
             </span>
-            <span class="chatbox-right">Here are a few pictures. She's a happy girl!</span>
-            <span class="chatbox-right">Can you make it?</span>
-            <span class="chatbox-left">She looks so happy! The time we discussed works. How long shall I take her out for?</span>
+            <span class="chatbox right">Here are a few pictures. She's a happy girl!</span>
+            <span class="chatbox right">Can you make it?</span>
+            <span class="chatbox left">She looks so happy! The time we discussed works. How long shall I take her out for?</span>
             <span class="prices-left">30 minute walk
               <em class="cost">$29</em></span>
             <span class="prices-left">1 hour walk
@@ -51,10 +50,15 @@
       </div>
     </div>
     <div class="article-right-center">
-      <h1 class="title">Simple booking</h1>
-      <p class="article-description">Stay in touch with our dog walkers through the chat interface. This makes it easy to 
-        discuss arrangements and make bookings. Once the walk has been completed you can rate 
+      <div class="article-wrapper">
+        <h1 class="title">Simple booking</h1>
+      <p class="article-description">Stay in touch with our dog walkers through the chat<br/>
+        interface. This makes it easy to 
+        discuss arrangements and<br/>
+        make bookings. Once the walk has been completed you can<br/>
+        rate 
         your walker and book again all through the chat.</p>
+      </div>
     </div>
   </section>
   <aside class="right-blob"></aside>
