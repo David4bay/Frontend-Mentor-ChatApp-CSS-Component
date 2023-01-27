@@ -245,7 +245,7 @@ input[type=text] {
   height: 25px;
   padding: 15px;
   border-radius: 15px;
-  border: 1px solid black;
+  transform: translateY(-5%);
 }
 
 input[type=text]::-moz-placeholder {
@@ -260,8 +260,21 @@ input[type=text]::placeholder {
   padding-left: 10px;
 }
 
+button.input-container {
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  align-items: center;
+  width: 280px;
+  height: 35px;
+  border-radius: 15px;
+  background-color: #fff;
+  border: none;
+  transform: translateY(-35%);
+}
+
 span.input-field {
-  display: grid;
+  display: flex;
   place-content: center;
   height: 40px;
   margin: 15px auto;
@@ -269,6 +282,18 @@ span.input-field {
   border-bottom-right-radius: 15px;
   width: 100%;
   background-color: rgb(243, 245, 248);
+}
+
+span.input-field::after {
+  content: ">";
+  display: flex;
+  align-self: center;
+  margin-left: 8px;
+  padding: 3px 5px;
+  transform: translateY(-45%) translateX(-185%);
+  border-radius: 50%;
+  color: #fff;
+  background-color: rgb(62, 34, 83);
 }
 
 footer.frontend-mentor-info {
