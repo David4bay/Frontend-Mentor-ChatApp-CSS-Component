@@ -67,8 +67,9 @@ main.main-content {
         div.phone-left {
             display: flex;
             align-self: center;
-            width: 325px;
+            width: 315px;
             height: 635px;
+            overflow: hidden;
             border-radius: 25px;
             padding: 16.9px;
             background-color: #fff;
@@ -148,7 +149,7 @@ div.inner-content {
 
 div.content-width::before {
     content: '<';
-    color: #fff;
+    color: rgba(255, 255, 255, 0.548);
     transform: translateX(-150%) skew(1.4deg);
 }
 
@@ -197,7 +198,8 @@ span.left {
 span.right {
     transform: translateX(30%);
     width: 167.7px;
-    background-color: rgb(237, 228, 245);
+    color: #000;
+    background-color: #fff;
     padding: 5px;
     border-radius: 5px;
 }
@@ -207,12 +209,33 @@ span.images {
 }
 
 span.prices-left {
-    font-size: small;
+    font-size: 5px;
     margin-left: 10.4px;
     margin-bottom: 5px;
-    width: 167.7px;
-    padding: 5px;
-    background-color: rgb(237, 228, 245);;
+    color: #fff;
+    width: 215px;
+    padding: 5px 5px 5px 35px;
+    border-radius: 5px;
+    position: relative;
+    background: linear-gradient(-10deg, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+}
+
+span.prices-left::before {
+    content: '0';
+    font-size: 5px;
+    position: absolute;
+    left: 0;
+    padding-left: 5px;
+}
+
+em.cost {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    padding-right: 15px;
+    font-style: normal;
 }
 
 
@@ -232,11 +255,29 @@ img {
 }
 
 input[type="text"] {
-    
+    border: none;
+    z-index: 1;
+    height: 25px;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+input[type="text"]::placeholder {
+    padding-left: 10px;
+ 
 }
 
 span.input-field {
+   display: grid;
+   place-content: center;
+   height: 40px;
    margin: 15px auto;
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+
+   width: 100%;
+   background-color: rgb(243, 245, 248);
 }
 
 footer.frontend-mentor-info {
