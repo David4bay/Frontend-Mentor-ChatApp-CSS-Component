@@ -16,14 +16,6 @@ Welcome to David Bayodes solution to the [Chat app CSS illustration challenge on
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-<style>
-
-    span.red {
-        color: red;
-    }
-
-</style>
-
 ## Overview
 
 ### The challenge
