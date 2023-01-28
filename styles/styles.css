@@ -208,11 +208,16 @@ span.prices-left {
 }
 
 span.prices-left::before {
-  content: "0";
+  content: "O";
   font-size: 5px;
   position: absolute;
   left: 0;
   padding-left: 5px;
+}
+
+span.material-symbols-outlined {
+  transform: translateX(245%);
+  color: #fff;
 }
 
 em.cost {
@@ -260,6 +265,10 @@ input[type=text]::placeholder {
   padding-left: 10px;
 }
 
+input:active {
+  border: none;
+}
+
 button.input-container {
   display: flex;
   justify-content: center;
@@ -304,4 +313,53 @@ footer.frontend-mentor-info {
 footer.frontend-mentor-info div.attribution {
   width: 100%;
   text-align: center;
+}
+
+@media (max-width: 900px) {
+  html, body {
+    min-height: 100vh;
+    overflow: visible;
+    width: 346px;
+    max-width: 346px;
+  }
+  aside.left-blob {
+    opacity: 0;
+  }
+  aside.right-blob {
+    max-width: 0;
+    height: 0;
+    opacity: 0;
+  }
+  div.phone-left::before {
+    z-index: -1;
+    width: 1000px;
+    background: hsl(264deg, 100%, 61%);
+    height: 1000px;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  section.middle-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    width: 346px;
+  }
+  div.article-right-center {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: absolute;
+    transform: translateX(-85%) translateY(290%);
+  }
+  div.article-wrapper {
+    font-size: small;
+  }
+  footer {
+    font-size: 5px;
+    transform: translateX(-32.5%) translateY(600px);
+    width: 100px;
+  }
 }/*# sourceMappingURL=styles.css.map */
