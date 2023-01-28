@@ -31,8 +31,8 @@ Used my windows snipping tool to take a snapshot of what it looks like on my mac
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY/hub)
-- Live Site URL: [Add live site URL here](https://gleaming-cat-b06c2e.netlify.app)
+- Solution URL: (https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY/hub)
+- Live Site URL: (https://gleaming-cat-b06c2e.netlify.app)
 
 ## My process
 
@@ -57,14 +57,14 @@ If I do come back to this project, it would be for tutorial purposes, as I've fo
 
 ### Useful resources
 
-- [Example resource 1](https://developer.mozilla.org/en-US/docs/Web/CSS) - The documentation you'll need when you get stuck.
-- [Example resource 2](https://www.geeksforgeeks.org/css/) - They have great tutorials for <span  class="red">CSS.</span>
+- (https://developer.mozilla.org/en-US/docs/Web/CSS) - The documentation you'll need when you get stuck.
+- (https://www.geeksforgeeks.org/css/) - They have great tutorials for <span  class="red">CSS.</span>
 
 ## Author
 
-- Website - [Add your name here](https://davidbay.hashnode.dev)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/David4bay)
-- Twitter - [@yourusername](https://www.twitter.com/Davidbay01)
+- Website - (https://davidbay.hashnode.dev)
+- Frontend Mentor - (https://www.frontendmentor.io/profile/David4bay)
+- Twitter - (https://www.twitter.com/Davidbay01)
 
 ## Acknowledgments
 
