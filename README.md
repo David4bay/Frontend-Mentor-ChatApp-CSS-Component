@@ -39,8 +39,8 @@ Used my windows snipping tool to take a snapshot of what it looks like on my mac
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY/hub)
+- Live Site URL: [Add live site URL here](https://gleaming-cat-b06c2e.netlify.app)
 
 ## My process
 
@@ -70,7 +70,7 @@ If I do come back to this project, it would be for tutorial purposes, as I've fo
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Add your name here](https://davidbay.hashnode.dev)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/David4bay)
 - Twitter - [@yourusername](https://www.twitter.com/Davidbay01)
 
