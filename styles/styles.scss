@@ -182,7 +182,7 @@ span.notch {
 }
 
 span.chatbox {
-    font-size: 2px;
+    font-size: 10px;
     color: #770885ea;
     margin: 5px auto;
 }
@@ -191,7 +191,7 @@ span.left {
     margin-left: 10.4px;
     width: 167.7px;
     background-color: rgb(237, 228, 245);
-    padding: 5px;
+    padding: 16px;
     border-radius: 5px;
 }
 
@@ -209,12 +209,12 @@ span.images {
 }
 
 span.prices-left {
-    font-size: 5px;
+    font-size: 14px;
     margin-left: 10.4px;
     margin-bottom: 5px;
     color: #fff;
     width: 215px;
-    padding: 5px 5px 5px 35px;
+    padding: 10px 10px 10px 35px;
     border-radius: 5px;
     position: relative;
     background: linear-gradient(-10deg, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
